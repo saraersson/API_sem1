@@ -1,0 +1,167 @@
+ .topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FBD3EA;;
+            }
+.topnav a {
+    float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-size: 18px;
+}
+            
+.topnav a:hover {
+    background-color: gray;
+  color: white;
+}
+.topnav a.active {
+    background-color: gray;
+    color: white;
+}           
+       
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+    font-family: "Times New Roman", sans-serif;
+}
+
+
+h1 {
+    color: dimgray;
+    font-size: 32px;
+}
+
+h2 {
+    color: dimgray;
+    font-size: 25px;
+}
+
+#meatballs {
+    background-image: url(https://media3.s-nbcnews.com/j/newscms/2016_37/1158018/meatballs-today-160914-tease-02_9473265cce330fbbe87dc3cad7ac7654.today-inline-large.jpg);
+    background-size: 100%;
+}
+
+#pancakes {
+    background-image: url(https://images-gmi-pmc.edge-generalmills.com/e888dc18-80b7-41cc-babd-a8869649d0bd.jpg);
+    background-size: 100%;
+}
+
+.month {
+    padding: 30px 25px;
+    width: 92%;
+    background: #F9BBDF;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.month ul li {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#FBD3EA;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 20px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    height: 52px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #F9BBDF;
+    color: white !important
+}
