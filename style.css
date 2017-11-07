@@ -90,6 +90,16 @@ h2 {
     font-size: 25px;
 }
 
+h3 {
+    color: dimgray;
+    font-size: 15px;
+}
+
+#comment {
+    border-bottom-width: 5px;
+    border-color: black;
+}
+
 #meatballs {
     background-image: url(https://media3.s-nbcnews.com/j/newscms/2016_37/1158018/meatballs-today-160914-tease-02_9473265cce330fbbe87dc3cad7ac7654.today-inline-large.jpg);
     background-size: 100%;
@@ -102,7 +112,6 @@ h2 {
 
 .month {
     padding: 30px 25px;
-    width: 92%;
     background: #F9BBDF;
     text-align: center;
 }
