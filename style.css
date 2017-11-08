@@ -99,11 +99,16 @@ p {
     color: black;
 }
 
+.ingredients{
+    color: black;
+}
+
+/* set meatballs image */
 #meatballs {
     background-image: url(https://media3.s-nbcnews.com/j/newscms/2016_37/1158018/meatballs-today-160914-tease-02_9473265cce330fbbe87dc3cad7ac7654.today-inline-large.jpg);
     background-size: 100%;
 }
-
+/* set pancake image */
 #pancakes {
     background-image: url(https://images-gmi-pmc.edge-generalmills.com/e888dc18-80b7-41cc-babd-a8869649d0bd.jpg);
     background-size: 100%;
